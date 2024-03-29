@@ -1,0 +1,106 @@
+.bulle-icone.jaune {
+    background-color: #FFE700;
+}
+  
+.bulle-icone-bordure.jaune {
+    background-color: #EE8F00;
+}
+
+span.gras{
+    font-weight: 600;
+}
+
+p{
+    margin: 10px 0;
+    line-height: 1.1;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 900px;
+}
+
+input[type="text"], input[type="email"], textarea{
+    border: #777777 solid 1px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.05rem;
+}
+
+.required::after{
+    content: " *";
+    color: red;
+}
+
+label:not(.label-radio){
+    display: block;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.label-radio{
+    display: inline;
+    margin: 0;
+}
+
+input[type="radio"]{
+    accent-color: #0000FF;
+}
+
+div#form-submit{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+input[type="submit"], input[type="reset"]{
+    margin: 50px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+input[type="submit"]{
+    background-color: #1453FF;
+    flex-grow: 5;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover{
+    background-color: #1482ff;
+}
+
+input[type="reset"]{
+    background-color: #017e31;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+input[type="reset"]:hover{
+    background-color: #017e5f;
+}
+
+.message{
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.msg-erreur{
+    background-color: #F8D7DA;
+    border: #F5C6CB 1px solid;
+}
+
+.msg-valide{
+    background-color: #D4EDDA;
+    border: #C3E6CB 1px solid;
+}

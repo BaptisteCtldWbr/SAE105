@@ -1,0 +1,39 @@
+.navigation-principale a.active{
+    color: #ef509f;
+}
+
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    margin: 50px;
+}
+
+div#footer-bordure{
+    /*height: 100px;*/
+    width: 1px;
+    background-color: #707070;
+}
+
+footer ul, footer p{
+    color: #707070;
+}
+
+footer p{
+    margin: 0px;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 5px;
+}
+
+a.remonter{
+    color: #707070;
+    text-decoration: none;
+}

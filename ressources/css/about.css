@@ -1,0 +1,83 @@
+html {
+  --scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+.bulle-icone.turquoise {
+    background-color: #0CEEC0;
+}
+  
+.bulle-icone-bordure.turquoise {
+    background-color: #03886D;
+}
+.bloc-vert a {
+    text-decoration: none;
+    color:#03886D;
+    margin: 0.5rem 0.5rem;
+}
+  
+.bloc-vert {
+    display: flex;
+    width: 15rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 1rem;
+    border: solid #03886D 0.1rem;
+    padding: 0.5rem;
+}
+
+#presentation ul {
+  list-style: inside;
+  margin-bottom: 1rem;
+}
+
+#presentation {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+p {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin: 1rem 7rem 1rem 1rem; 
+}
+
+#presentation img {
+  margin-bottom: 1rem;
+}
+
+.gras {
+  font-weight: bold;
+}
+
+.ex_sae {
+  display: flex; 
+  gap: 1.5rem;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.ex_sae article {
+  display: block;
+  box-shadow: 0.1rem 0.2rem  #c0bdbdad;
+  height: 610px;
+  width: 400px;
+  transition: transform .2s ease-in-out;
+}
+
+.ex_sae article:hover {
+  transform: scale(1.03);
+}
+
+article p {
+  margin: 1rem 7rem 1rem 1rem; 
+  line-height: 1rem;
+}
+
+article img {
+  overflow: hidden;
+  height: 50%;
+}
+

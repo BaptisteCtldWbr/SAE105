@@ -1,0 +1,51 @@
+.bulle-icone.vert {
+    background-color: #9dff00;
+}
+  
+.bulle-icone-bordure.vert {
+    background-color: #4bee00;
+}
+
+.activites-conteneur{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.activite{
+    width: 200px;
+    box-shadow: 2px 2px 2px #000000;
+}
+
+.activite{
+    max-width: 200px;
+    margin: 0px;
+    display: block;
+    border-radius: 5px;
+    transition: 0.2s all ease-in-out;
+}
+
+.activite:hover{
+    transform: scale(1.1);
+}
+
+.activite img{
+    border-radius: 5px;
+}
+
+.activite .activite-titre{
+    display: block;
+    padding: 15px;
+    font-size: 1.5em;
+    color: #000000;
+    margin: 0px;
+}
+
+.activites-conteneur img {
+    height: 140px;
+    width : 200px;
+    object-fit: cover;
+}

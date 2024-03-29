@@ -1,0 +1,32 @@
+.lieux {
+  display: flex;
+  flex-flow: wrap row;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  gap: 3.75rem 0.8rem;
+}
+.lieux article {
+flex-wrap: wrap;
+width:50%;
+}
+
+.lieux figure {
+max-width: 45%;
+margin-right: 1rem;
+}
+
+.lieux:nth-child(even) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.bulle-icone.bleu {
+  background-color: #012A37;
+}
+
+.bulle-icone-bordure.bleu {
+  background-color: #C9C9C9;
+}
+p {
+  margin-bottom: 1rem;
+}

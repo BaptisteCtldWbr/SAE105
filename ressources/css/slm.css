@@ -1,0 +1,27 @@
+.flex {
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 3rem 1rem;
+}
+
+.video {
+  width: 48.7%;
+
+}
+
+.video iframe{
+  width: 100%;
+  aspect-ratio: 16/9;
+} 
+
+.titre-page{
+  max-width: 800px;
+}
+
+.bulle-icone.rouge {
+    background-color: #EB0706;
+  }
+
+  .bulle-icone-bordure.rouge {
+    background-color: #A50253;
+  }

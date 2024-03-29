@@ -1,0 +1,44 @@
+.conteneur-principal article {
+    display: flex;
+    flex-direction: row;
+    gap : 1.25rem;
+}
+
+.forme {
+display: flex;
+flex-flow: column wrap;
+gap: 2rem;
+}
+
+.text {
+    box-shadow: 0.1rem 0.1rem  rgba(192, 189, 189, 0.678); 
+    margin-bottom: 3rem;
+}
+
+.text h2 {
+    margin: 2rem;
+}
+
+.container {
+    margin: 0 2rem 2rem 2rem;
+    font-size: 0.9rem;
+    line-height: 1.1;
+}
+
+
+ .titre {   
+    font-size: 2rem;
+    font-weight: bold;
+}  
+         
+.text {  
+color: black; 
+width: 50rem;
+height: 730px;
+} 
+
+
+
+
+
+
